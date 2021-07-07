@@ -2,6 +2,6 @@
 
 To run the scripts. Just type in the command line:
 
-python app.py <height>
+python app.py [height]
   
   
