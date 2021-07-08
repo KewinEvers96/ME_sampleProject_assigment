@@ -20,9 +20,9 @@ def getPlayers(height):
     for player in players:
         height_in_dict = dict_players.get(int(player['h_in']), False)
         if height_in_dict is False:
-            dict_players[int(player['h_in'])] = [Player(index, player['first_name'] +" " + player['last_name'], player['h_in'])]
+            dict_players[int(player['h_in'])] = [Player(index, player['first_name'] +" " + player['last_name'], int(player['h_in']))]
         else:
-            dict_players[int(player['h_in'])].append(Player(index, player['first_name'] +" " + player['last_name'], player['h_in']))
+            dict_players[int(player['h_in'])].append(Player(index, player['first_name'] +" " + player['last_name'], int(player['h_in'])))
         index += 1
     height_checked = dict()
     height_pairs = []
