@@ -1,5 +1,5 @@
 # ME_sampleProject_assigment
-
+## Instructions
 To run the sample application. Just type in the command line:
 
 python app.py [height (integer)]
